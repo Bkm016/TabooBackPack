@@ -1,0 +1,48 @@
+# TabooBackPack
+# by Bkm016
+
+# 插件设置 
+Settings:
+
+  # 调试模式
+  Debug: false
+
+  # 多长时间保存一次缓存数据
+  # 单位: 秒
+  SaveDelay: 10
+
+  # 背包在多长时间没有被打开后才从缓存中移除
+  # 单位: 秒
+  ClearTimeOut: 30
+  
+  # 是否允许在其他界面下打开背包
+  OpenOnOther: false
+  
+  # 在哪里可以打开背包
+  # - - - - - - - - - - #
+  # 快捷栏: 0-8
+  # 背包烂第1行: 9-17 
+  # 背包烂第2行: 18-26 
+  # 背包烂第3行: 27-35 
+  # - - - - - - - - - - #
+  EffectiveSlots:
+  - 35
+  
+# 不允许放到背包里的物品
+# 除材质外其他均为关键字判断
+DenyItems:
+- 'name@展示名'
+- 'lore@描述'
+- 'type@材质'
+
+# 不允许打开背包的世界
+DenyWorlds:
+- 'world_name'
+  
+# 语言文件
+Messages:
+  open-pre: '&7正在打开背包...'
+  open-fall: '&4你不能在这里打开背包'
+  open-other: '&4这个背包正在被其他人打开'
+  open-already: '&4背包正在打开, 请稍后!'
+  item-deny: '&4这个物品不能放到背包里!'

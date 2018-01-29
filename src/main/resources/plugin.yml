@@ -1,0 +1,8 @@
+name: TabooBackPack
+main: me.skymc.taboobackpack.BackPack
+version: {$VERSION}
+
+commands:
+  taboobackpack:
+    aliases: [backpack]
+    permission: backpack.admin
