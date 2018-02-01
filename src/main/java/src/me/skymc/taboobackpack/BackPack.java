@@ -83,7 +83,7 @@ public class BackPack extends JavaPlugin {
 		/**
 		 * 注册指令
 		 */
-		Bukkit.getPluginCommand("taboocommand").setExecutor(new MainCommand());
+		Bukkit.getPluginCommand("taboobackpack").setExecutor(new MainCommand());
 		
 		/**
 		 * 启动保存任务
